@@ -19,6 +19,7 @@
             color: deeppink;
         }
         body {
+            background-color: transparent;
             color: contrast(background-color);
         }
         code {
@@ -26,6 +27,18 @@
         }
         h1 {
             text-align: center;
+        }
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #111;
+                color: #aaa;
+            }
+        }
+        @media (prefers-color-scheme: light) {
+            body {
+                background-color: white;
+                color: black;
+            }
         }
     </style>
 
