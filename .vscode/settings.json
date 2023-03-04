@@ -1,0 +1,16 @@
+{
+  "files.exclude": {
+    ".prettierignore": true,
+    "**/.classpath": true,
+    "**/.eslintrc*": true,
+    "**/.factorypath": true,
+    "**/.gitignore": true,
+    "**/.next": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.vscode": true,
+    "**/next-env.d.ts": true,
+    "**/node_modules": true,
+    "**/pnpm-lock.yaml": true
+  }
+}

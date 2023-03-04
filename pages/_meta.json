@@ -1,0 +1,17 @@
+{
+  "index": "介绍",
+  "official": "官方文档",
+  "tutorials": "中文教程",
+  "about": {
+    "title": "关于",
+    "type": "page"
+  },
+  "link": "友链",
+  "faq": "FAQ",
+  "contact": {
+    "title": "Contact ↗",
+    "type": "page",
+    "href": "https://github.com/iw17",
+    "newWindow": true
+  }
+}
