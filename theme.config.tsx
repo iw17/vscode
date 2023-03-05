@@ -3,11 +3,11 @@ import { useRouter } from "next/router"
 import { DocsThemeConfig, useConfig } from "nextra-theme-docs"
 
 const config: DocsThemeConfig = {
-  logo: <>
-      <span style={{ marginLeft: '.4em', fontWeight: 800 }}>
-        VS Code群文档
-      </span>
-  </>,
+  logo: (
+    <>
+      <span style={{ marginLeft: ".4em", fontWeight: 800 }}>VS Code群文档</span>
+    </>
+  ),
   head: () => {
     const { asPath, defaultLocale, locale } = useRouter()
     const { frontMatter } = useConfig()
@@ -19,13 +19,16 @@ const config: DocsThemeConfig = {
       <>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:url" content={url} />
-        <meta property="og:title" content={frontMatter.title || "VS Code群文档"} />
+        <meta
+          property="og:title"
+          content={frontMatter.title || "VS Code群文档"}
+        />
         <meta
           property="og:description"
           content={frontMatter.description || "VS Code群文档"}
         />
         <link rel="icon" type="image/png" href="/favicons/vscode.png" />
-        <meta name="theme-color" content="#000"/>
+        <meta name="theme-color" content="#000" />
       </>
     )
   },
@@ -44,6 +47,9 @@ const config: DocsThemeConfig = {
     }
   },
   darkMode: true,
+  nextThemes: {
+    defaultTheme: 'system',    
+  },
 
   docsRepositoryBase: "https://github.com/iw17/vscode",
   footer: {
