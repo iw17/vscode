@@ -48,7 +48,7 @@ const config: DocsThemeConfig = {
   },
   darkMode: true,
   nextThemes: {
-    defaultTheme: 'system',    
+    defaultTheme: "system",
   },
 
   docsRepositoryBase: "https://github.com/iw17/vscode",
