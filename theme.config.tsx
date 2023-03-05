@@ -8,7 +8,7 @@ const config: DocsThemeConfig = {
       <span style={{ marginLeft: ".4em", fontWeight: 800 }}>VS Code群文档</span>
     </>
   ),
-  head: () => {
+  head: function Head() {
     const { asPath, defaultLocale, locale } = useRouter()
     const { frontMatter } = useConfig()
     const url =
