@@ -5,12 +5,13 @@ import { DocsThemeConfig, useConfig } from "nextra-theme-docs"
 const config: DocsThemeConfig = {
   logo: (
     <>
-      <span style={{ marginLeft: ".4em", fontWeight: 800 }}>VS Code群文档</span>
+      <span style={{ marginLeft: ".4em" }}>VS Code 群文档</span>
     </>
   ),
   head: function Head() {
     const { asPath, defaultLocale, locale } = useRouter()
     const { frontMatter } = useConfig()
+    const vscDoc = "VS Code 群文档"
     const url =
       "https://vscode.iw17.cc" +
       (defaultLocale === locale ? asPath : `/${locale}${asPath}`)
@@ -21,11 +22,11 @@ const config: DocsThemeConfig = {
         <meta property="og:url" content={url} />
         <meta
           property="og:title"
-          content={frontMatter.title || "VS Code群文档"}
+          content={frontMatter.title || vscDoc}
         />
         <meta
           property="og:description"
-          content={frontMatter.description || "VS Code群文档"}
+          content={frontMatter.description || vscDoc}
         />
         <link rel="icon" type="image/png" href="/favicons/vscode.png" />
         <meta name="theme-color" content="#000" />
@@ -40,10 +41,28 @@ const config: DocsThemeConfig = {
   },
   useNextSeoProps() {
     const { asPath } = useRouter()
-    if (asPath !== "/") {
-      return {
-        titleTemplate: "%s | VS Code群文档",
-      }
+    const vscDoc = "VS Code 群文档"
+    const title_map = new Map([
+        ["/OfficialDocs", "官方文档"],
+        ["/Links", "友链与友群"],
+        ["/FAQ", "常见问题"],
+    ])
+    if (asPath === "/") {
+        return {
+            titleTemplate: vscDoc,
+        }
+    } else if (title_map.has(asPath)) {
+        return {
+            titleTemplate: title_map.get(asPath) + " | " + vscDoc
+        }
+    } else if ((asPath as string).startsWith("/tutorials")) {
+        return {
+            titleTemplate: "配置环境 - %s | " + vscDoc
+        }
+    } else {
+        return {
+            titleTemplate: "%s | " + vscDoc
+        }
     }
   },
   darkMode: true,
