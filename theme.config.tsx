@@ -43,8 +43,8 @@ const config: DocsThemeConfig = {
     const { asPath } = useRouter()
     const vscDoc = "VS Code 群文档"
     const title_map = new Map([
-        ["/official-docs", "官方文档"],
-        ["/friends", "友链与友群"],
+        ["/OfficialDocs", "官方文档"],
+        ["/Links", "友链与友群"],
         ["/faq", "常见问题"],
     ])
     if (asPath === "/") {
@@ -61,7 +61,7 @@ const config: DocsThemeConfig = {
         }
     } else {
         return {
-            titleTemplate: "%s | " + vscDoc
+            titleTemplate: "Test - %s | " + vscDoc
         }
     }
   },
