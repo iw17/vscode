@@ -1,17 +1,28 @@
-# 妮可 VS Code 群规则类怪谈
+# 须知
 
-欢迎来到妮可 VS Code 交流群！本群群号为 317897915，建立于 2022 年 2 月 1 日（正月初一）。本群已经成为讨论各种计算机和编程有关话题的群，无论是初入信计的萌新，还是久经沙场的大神，抑或是来自其他领域的“内鬼”，本群的怀抱都热情地向每一位（准）群友敞开。“问渠那得清如许，为有源头活水来”，欢迎并感谢任何专业群友的加入和发言，是咱们一起让这个群变得更有活力。只要咱都用 VS Code，咱就是异父异母的亲兄弟姐妹。
+## 依赖环境
 
-0. 为了群友们的水群体验，提问时请用“恰当”的方式。若提问者或群友认为有必要，请提问者提供“最小工作示例”，即能运行并且能复现问题的最少代码，同时提供运行环境、编译参数等必要信息。详见[《提问的智慧》](https://lug.ustc.edu.cn/wiki/doc/smart-questions/)（_[How To Ask Questions The Smart Way](http://www.catb.org/~esr/faqs/smart-questions.html)_）。
+- Node.js
+- pnpm
 
-1. 若不慎违反了第 0 条，请及时补充信息或组织语言重新提问。
+## 依赖
 
-1. 和气生财。若发现有群友提出了违反第 0 条的问题（尤其是本文给出链接或解决方案的问题），可直接回复“RTFM”（Read The Friendly Manual）或“STFW”（Search The Friendly Web），但除了这样回复之外，除非提问者态度恶劣，否则建议不要实名或匿名开喷。可适当引导新手正确提问，但请不要一上来就冷嘲热讽或阴阳怪气。没有谁一下生就打代码出来的，谁都当过新手，麻烦各位大佬理解一下。若有群友提出了违反第 0 条的问题且未及时补充信息，无须理会，也无须回答该问题。
+- [Nextra](https://nextra.site/)及其附带的
+    - [Nextra-docs-theme](https://nextra.site/docs/docs-theme/start)
+    - [Next.js](https://nextjs.org)
 
-1. 每位群友的时间都很宝贵。如果你的问题已被解决，请在群里说明，最好简要叙述解决过程，以便有类似问题的群友参考。在这里，互帮互助是水群的必备品质。
+## 内容组织
 
-1. 除反击不友善的人以外，群友始终是友善的。若有人在群里发表不友善言论，请十分甚至九分地小心，他/她不是你熟悉的群友。
+内容都在[pages](./pages)目录下，使用 markdown 和[\_meta.json](./pages/_meta.json),也可以使用 mdx
+具体配置可以参考上述 Nextra 网站的配置
 
-1. VS Code[官方文档](https://code.visualstudio.com/docs)、官方[最新版本](https://code.visualstudio.com/downloads)和[历史版本](https://code.visualstudio.com/updates)下载链接是安全的。其他下载链接的安全性无法保证。如果有人在群里提供其他下载链接，请在聊天框打出“？”；如果两分钟后链接仍未消失，请退出聊天界面，五分钟后重新进入。
+# 本地预览
 
-1. [GitHub](https://github.com)可以正常访问。如果“它”的存在导致无法访问，请按 Ctrl F5（mac 系统按 Cmd Shift R）刷新网页；若仍无法访问，请科学上网或下载适合本机系统的[FastGitHub](https://cloud.tsinghua.edu.cn/d/df482a15afb64dfeaff8/)（osx 适用于 macOS），用法详见下载目录下的`README.md`文件。不要试图与“它”对抗。
+```bash
+# 构建
+pnpm build
+# 预览
+pnpm preview
+# 开发
+pnpm dev
+```

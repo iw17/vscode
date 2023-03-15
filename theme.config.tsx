@@ -43,9 +43,10 @@ const config: DocsThemeConfig = {
     const { asPath } = useRouter()
     const vscDoc = "VS Code 群文档"
     const title_map = new Map([
-        ["/OfficialDocs", "官方文档"],
-        ["/Links", "友链与友群"],
+        ["/official-docs", "官方文档"],
+        ["/Links", "友链友群"],
         ["/faq", "常见问题"],
+        ["/about", "关于"]
     ])
     if (asPath === "/") {
         return {
@@ -61,7 +62,7 @@ const config: DocsThemeConfig = {
         }
     } else {
         return {
-            titleTemplate: "Test - %s | " + vscDoc
+            titleTemplate: "%s | " + vscDoc
         }
     }
   },
@@ -70,7 +71,7 @@ const config: DocsThemeConfig = {
     defaultTheme: "system",
   },
 
-  docsRepositoryBase: "https://github.com/iw17/vscode",
+  docsRepositoryBase: "https://github.com/iw17/vscode/tree/main",
   footer: {
     text: (
       <span>

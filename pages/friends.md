@@ -8,7 +8,7 @@
 
 说明：以下有部分群仅限科大本校人加入。
 
-- USTC Cpp，747346919
-- USTC Linux User Group，460650279
-- USTC 算法竞赛交流群，132655724
-- USTC TeX Users Group，526773655
+- 132655724：USTC 算法竞赛交流群
+- 460650279：USTC Linux User Group
+- 526773655：USTC TeX Users Group
+- 747346919：USTC Cpp
