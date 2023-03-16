@@ -4,7 +4,7 @@
 - [中国科大镜像站](https://mirrors.ustc.edu.cn)
 - [清华大学镜像站](https://mirrors.tuna.tsinghua.edu.cn)
 
-- [2022 ICS](https://git.lug.ustc.edu.cn/CA/2022ics)
+- [2022 ICS](https://git.lug.ustc.edu.cn/CA/2022ics) 课程助教写的[文档](https://git.lug.ustc.edu.cn/CA/2022ics/-/blob/master/documents/README.md)
 
 ## 友群
 
