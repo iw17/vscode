@@ -44,7 +44,7 @@ const config: DocsThemeConfig = {
     const vscDoc = "VS Code 群文档"
     const title_map = new Map([
         ["/official-docs", "官方文档"],
-        ["/Links", "友链友群"],
+        ["/friends", "友链友群"],
         ["/faq", "常见问题"],
         ["/about", "关于"]
     ])
@@ -75,11 +75,7 @@ const config: DocsThemeConfig = {
   footer: {
     text: (
       <span>
-        {new Date().getFullYear()} ©{" "}
-        <a href="https://vscode.iw17.cc" target="_blank">
-          iw17
-        </a>
-        .
+        {new Date().getFullYear()} ©{" "}<a href="/" target="_blank">iw17</a>.
       </span>
     ),
   },

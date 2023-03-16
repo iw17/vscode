@@ -4,6 +4,8 @@
 - [中国科大镜像站](https://mirrors.ustc.edu.cn)
 - [清华大学镜像站](https://mirrors.tuna.tsinghua.edu.cn)
 
+- [2022 ICS](https://git.lug.ustc.edu.cn/CA/2022ics)
+
 ## 友群
 
 说明：以下有部分群仅限科大本校人加入。

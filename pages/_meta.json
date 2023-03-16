@@ -7,8 +7,7 @@
   "main-page": {
     "title": "首页",
     "type": "page",
-    "href": "/",
-    "newWindow": true
+    "href": "/"
   },
   "about": {
     "title": "关于",
