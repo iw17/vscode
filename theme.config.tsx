@@ -44,8 +44,9 @@ const config: DocsThemeConfig = {
     const vscDoc = "VS Code 群文档"
     const title_map = new Map([
         ["/official-docs", "官方文档"],
-        ["/friends", "友链与友群"],
+        ["/friends", "友链友群"],
         ["/faq", "常见问题"],
+        ["/about", "关于"]
     ])
     if (asPath === "/") {
         return {
@@ -70,15 +71,11 @@ const config: DocsThemeConfig = {
     defaultTheme: "system",
   },
 
-  docsRepositoryBase: "https://github.com/iw17/vscode",
+  docsRepositoryBase: "https://github.com/iw17/vscode/tree/main",
   footer: {
     text: (
       <span>
-        {new Date().getFullYear()} ©{" "}
-        <a href="https://vscode.iw17.cc" target="_blank">
-          iw17
-        </a>
-        .
+        {new Date().getFullYear()} ©{" "}<a href="/" target="_blank">iw17</a>.
       </span>
     ),
   },

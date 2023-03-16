@@ -1,15 +1,21 @@
 {
-  "index": "介绍",
+  "index": "写在前面",
   "official-docs": "官方文档",
   "tutorials": "配置环境",
+  "friends": "友链友群",
+  "faq": "常见问题",
+  "main-page": {
+    "title": "首页",
+    "type": "page",
+    "href": "/"
+  },
   "about": {
     "title": "关于",
-    "type": "page"
+    "type": "page",
+    "href": "/about"
   },
-  "friends": "友链与友群",
-  "faq": "常见问题",
   "contact": {
-    "title": "Contact ↗",
+    "title": "联系 ↗",
     "type": "page",
     "href": "https://github.com/iw17",
     "newWindow": true
