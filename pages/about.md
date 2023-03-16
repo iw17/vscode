@@ -18,7 +18,7 @@
 
 ### 建议建站、提供原创文档和部分链接
 
-- [KZ25T](https://github.com/KZ25T)，即 [USTC LUG - GitLab](https://git.lug.ustc.edu.cn) 用户“[南山南](https://git.lug.ustc.edu.cn/CA)”。
+- [KZ25T](https://github.com/KZ25T)，即 [USTC LUG - GitLab](https://git.lug.ustc.edu.cn) 用户“[南山南](https://git.lug.ustc.edu.cn/CA)”
 
 ### Pull Request
 
