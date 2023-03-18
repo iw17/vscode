@@ -18,7 +18,7 @@
 - [GCC / Windows](https://code.visualstudio.com/docs/cpp/config-mingw)
 - [GCC / WSL](https://code.visualstudio.com/docs/cpp/config-wsl)
 - [MSVC / Windows](https://code.visualstudio.com/docs/cpp/config-msvc)
-- [CMake](https://github.com/microsoft/vscode-cmake-tools/blob/main/docs/README.md)
+- [CMake](https://github.com/microsoft/vscode-cmake-tools/blob/main/docs)
 - [CMake / Linux](https://code.visualstudio.com/docs/cpp/cmake-linux)
 - [断点调试](https://code.visualstudio.com/docs/cpp/cpp-debug)
 - [常见问题](https://code.visualstudio.com/docs/cpp/faq-cpp)
