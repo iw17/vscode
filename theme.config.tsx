@@ -42,11 +42,13 @@ const config: DocsThemeConfig = {
   useNextSeoProps() {
     const { asPath } = useRouter()
     const vscDoc = "VS Code 群文档"
+    const sep = " | "
     const title_map = new Map([
-        ["/official-docs", "官方文档"],
-        ["/friends", "友链友群"],
+        ["/about", "关于"],
         ["/faq", "常见问题"],
-        ["/about", "关于"]
+        ["/friends", "友链友群"],
+        ["/official-docs", "官方文档"],
+        ["/tutorials", "配置环境"],
     ])
     if (asPath === "/") {
         return {
@@ -54,15 +56,11 @@ const config: DocsThemeConfig = {
         }
     } else if (title_map.has(asPath)) {
         return {
-            titleTemplate: title_map.get(asPath) + " | " + vscDoc
-        }
-    } else if ((asPath as string).startsWith("/tutorials")) {
-        return {
-            titleTemplate: "配置环境 - %s | " + vscDoc
+            titleTemplate: title_map.get(asPath) + sep + vscDoc
         }
     } else {
         return {
-            titleTemplate: "%s | " + vscDoc
+            titleTemplate: "%s" + sep + vscDoc
         }
     }
   },
