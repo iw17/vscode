@@ -76,6 +76,7 @@ const config: DocsThemeConfig = {
     text: (
       <span>
         {new Date().getFullYear()} ©{" "}<a href="/" target="_blank">iw17</a>.
+        Powered by <a href="https://nextra.site" target="_blank">Nextra</a>.
       </span>
     ),
   },
