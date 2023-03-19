@@ -9,4 +9,4 @@
 1. **安装或使用 LaTeX 遇到问题如何解决？**
 可以去 [LaTeX Stack Exchange](https://tex.stackexchange.com) 搜索或提问，安装方面的问题还可以查[这个网站](https://ctan.org/pkg/install-latex-guide-zh-cn)或[这份文档](https://mirrors.pku.edu.cn/ctan/info/install-latex-guide-zh-cn/install-latex-guide-zh-cn.pdf)。
 1. **官网上的 LaTeX 光盘映像文件下载太慢，如何加快下载速度？**
-可以从[科大镜像站](https://mirrors.ustc.edu.cn)下载，选择“获取开源软件”，“选择开源软件”处选择“TeX 排版系统”，“选择软件版本”处选择 TeX Live（若为 Windows 或 Linux 系统）或 MacTex（若为 macOS 系统），建议在校群友用校园网下载。
+可以从[科大镜像站](https://mirrors.ustc.edu.cn)下载，选择“获取开源软件”，“选择开源软件”处选择“TeX 排版系统”，“选择软件版本”处选择 TeX Live（若为 Windows 或 Linux 系统）或 MacTeX（若为 macOS 系统），建议在校群友用校园网下载。
