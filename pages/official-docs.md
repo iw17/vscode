@@ -1,12 +1,16 @@
-## 官方文档
-
-### [首页](https://code.visualstudio.com/docs)
+## [官方文档](https://code.visualstudio.com/docs)
 
 ### 安装
 - [Linux](https://code.visualstudio.com/docs/setup/linux)
 - [macOS](https://code.visualstudio.com/docs/setup/mac)
 - [Windows](https://code.visualstudio.com/docs/setup/windows)
 - [树莓派](https://code.visualstudio.com/docs/setup/raspberry-pi)
+
+### 快捷键
+
+- [Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
+- [macOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
+- [Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
 
 ### 配置环境教程
 
