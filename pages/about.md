@@ -28,3 +28,7 @@
 
 - [fenglielie](https://github.com/fenglielie)
 - [StuCjk](https://github.com/StuCjk)
+
+## 声明
+
+本站所使用的 VS Code 图标来自 [Visual Studio Code](https://code.visualstudio.com/) 官网，版权归微软所有。各种教程、文档、链接等资源均源自互联网，版权归原作者所有。如果您认为本站的内容侵犯了您的权益，请在本站 Repo 下[提交 Issue](https://github.com/iw17/vscode/issues)，我们会在第一时间处理并删除相关内容。

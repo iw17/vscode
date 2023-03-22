@@ -1,11 +1,16 @@
 import React from "react"
-import { useRouter } from "next/router.js"
+import { useRouter } from "next/router"
 import { DocsThemeConfig, useConfig } from "nextra-theme-docs"
+
+import * as Icons from "./components/Icons"
 
 const config: DocsThemeConfig = {
   logo: (
     <>
-      <span style={{ marginLeft: ".4em" }}>VS Code 群文档</span>
+      <Icons.VSCode />
+      <span style={{ marginLeft: ".4em", flexDirection: "column" }}>
+        VS Code 群文档
+      </span>
     </>
   ),
   head: function Head() {
