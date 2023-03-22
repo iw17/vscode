@@ -1,6 +1,7 @@
 ## [官方文档](https://code.visualstudio.com/docs)
 
 ### 安装
+
 - [Linux](https://code.visualstudio.com/docs/setup/linux)
 - [macOS](https://code.visualstudio.com/docs/setup/mac)
 - [Windows](https://code.visualstudio.com/docs/setup/windows)

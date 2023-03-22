@@ -7,9 +7,9 @@
 
 ## 依赖
 
-- [Nextra](https://nextra.site/) 及其附带的
-    - [Nextra-docs-theme](https://nextra.site/docs/docs-theme/start)
-    - [Next.js](https://nextjs.org)
+- [Nextra](https://nextra.site/)
+- [Nextra-docs-theme](https://nextra.site/docs/docs-theme/start)
+- [Next.js](https://nextjs.org)
 
 ## 内容组织
 
@@ -19,6 +19,8 @@
 ## 本地预览
 
 ```bash
+# 安装依赖
+pnpm install
 # 构建
 pnpm build
 # 预览
