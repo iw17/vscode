@@ -15,7 +15,7 @@
 
 内容都在 [pages](./pages) 目录下，使用 Markdown 和 [\_meta.json](./pages/_meta.json)组织，也可以使用 mdx 自行加入 React Component，实现一些更复杂的功能。更具体的配置可以参考[Nextra 官网 Page Configuration](https://nextra.site/docs/docs-theme/page-configuration)。
 
-## 本地预览
+## 本地开发
 
 ```bash
 # 安装依赖
