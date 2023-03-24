@@ -10,6 +10,9 @@ const withNextra = nextra({
  **/
 const nextConfig = {
   reactStrictMode: true,
+  images: {
+    unoptimized: true,
+  },
   swcMinify: true,
 }
 export default withNextra(nextConfig)
