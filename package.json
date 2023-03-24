@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
-    "build": "rimraf .next && next build",
+    "build": "next build",
+    "build:dev": "rimraf .next && next build",
     "start": "next start",
     "lint": "next lint --fix",
     "preview": "pnpm run build && next start",
