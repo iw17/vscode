@@ -2,10 +2,15 @@ import React from "react"
 import { useRouter } from "next/router"
 import { DocsThemeConfig, useConfig } from "nextra-theme-docs"
 
+import * as Icons from "./components/Icons"
+
 const config: DocsThemeConfig = {
   logo: (
     <>
-      <span style={{ marginLeft: ".4em" }}>VS Code 群文档</span>
+      <Icons.VSCode />
+      <span style={{ marginLeft: ".4em", flexDirection: "column" }}>
+        VS Code 群文档
+      </span>
     </>
   ),
   head: function Head() {
@@ -20,10 +25,7 @@ const config: DocsThemeConfig = {
       <>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:url" content={url} />
-        <meta
-          property="og:title"
-          content={frontMatter.title || vscDoc}
-        />
+        <meta property="og:title" content={frontMatter.title || vscDoc} />
         <meta
           property="og:description"
           content={frontMatter.description || vscDoc}
@@ -44,24 +46,24 @@ const config: DocsThemeConfig = {
     const vscDoc = "VS Code 群文档"
     const sep = " | "
     const title_map = new Map([
-        ["/about", "关于"],
-        ["/faq", "常见问题"],
-        ["/friends", "友链友群"],
-        ["/official-docs", "官方文档"],
-        ["/tutorials", "配置环境"],
+      ["/about", "关于"],
+      ["/faq", "常见问题"],
+      ["/friends", "友链友群"],
+      ["/official-docs", "官方文档"],
+      ["/tutorials", "配置环境"],
     ])
     if (asPath === "/") {
-        return {
-            titleTemplate: vscDoc,
-        }
+      return {
+        titleTemplate: vscDoc,
+      }
     } else if (title_map.has(asPath)) {
-        return {
-            titleTemplate: title_map.get(asPath) + sep + vscDoc
-        }
+      return {
+        titleTemplate: title_map.get(asPath) + sep + vscDoc,
+      }
     } else {
-        return {
-            titleTemplate: "%s" + sep + vscDoc
-        }
+      return {
+        titleTemplate: "%s" + sep + vscDoc,
+      }
     }
   },
   darkMode: true,
@@ -73,8 +75,15 @@ const config: DocsThemeConfig = {
   footer: {
     text: (
       <span>
-        {new Date().getFullYear()} ©{" "}<a href="/" target="_blank">iw17</a>.
-        Powered by <a href="https://nextra.site" target="_blank">Nextra</a>.
+        {new Date().getFullYear()} ©{" "}
+        <a href="/" target="_blank">
+          iw17
+        </a>
+        . Powered by{" "}
+        <a href="https://nextra.site" target="_blank">
+          Nextra
+        </a>
+        .
       </span>
     ),
   },
