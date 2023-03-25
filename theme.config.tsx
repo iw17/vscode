@@ -9,7 +9,7 @@ const config: DocsThemeConfig = {
     <>
       <Icons.VSCode />
       <span style={{ marginLeft: ".4em", flexDirection: "column" }}>
-        VS Code 群文档
+        &nbsp;VS Code 群文档
       </span>
     </>
   ),
