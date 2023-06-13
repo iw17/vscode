@@ -1,6 +1,8 @@
 ## 常见问题
 
-0.  **我不会/不想科学上网，如何流畅地访问 [GitHub](https://github.com)？**
+0.  **FAQ 是啥？**
+    FAQ（Frequently Asked Questions），“常见问题”的英文缩写。
+1.  **我不会/不想科学上网，如何流畅地访问 [GitHub](https://github.com)？**
     一个可行的办法是用 [FastGitHub](https://cloud.tsinghua.edu.cn/d/df482a15afb64dfeaff8/)，Windows 用户也可在群文件下载。用法见下载目录下`README.md`文件。
 1.  **如何入门 Git？**
     速成可以阅读[南山南](https://git.lug.ustc.edu.cn/CA)的[《git 简单用法》](https://git.lug.ustc.edu.cn/CA/2022ics/-/blob/master/documents/2.git_use_guide)，详细学习可参考 Git 官方文档 _Pro Git_ [简体中文版](https://git-scm.com/book/zh/v2)和[英文版](https://git-scm.com/book/en/v2)，群文件有可下载的 pdf。
@@ -13,4 +15,4 @@
 1.  **pip 默认下载源速度感人，如何设置为默认从国内源下载？**
     以从 [PyPI 的清华镜像源](https://pypi.tuna.tsinghua.edu.cn/simple)下载为例，按照[清华镜像站](https://mirrors.tuna.tsinghua.edu.cn)上的 [PyPI 镜像使用帮助](https://mirrors.tuna.tsinghua.edu.cn/help/pypi)配置。
 1.  **我用 Python 3.x 和 3.y，遇到了 xxx 问题，如何解决？**
-    Python 的不同版本之间不保证兼容，若非必要，不建议同时使用多个版本的 Python。
+    Python 的不同版本之间不保证兼容，若非必要，不建议同时使用多个版本的 Python；若必要，请检查环境变量和包的安装路径是否正确。
