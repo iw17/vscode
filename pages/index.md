@@ -6,6 +6,8 @@
 
 ## 下载 VS Code
 
+群文件有 Windows 64 位 VS Code 1.64.2（System Installer）和 1.68.1（User Installer）；需要其他版本，32 位，ARM64，或 Linux / MacOS 平台版本的群友，可以点击下方链接下载。
+
 - [最新版本](https://code.visualstudio.com/download)
 - [历史版本](https://code.visualstudio.com/updates)
 
