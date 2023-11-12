@@ -15,4 +15,8 @@
 1.  **pip 默认下载源速度感人，如何设置为默认从国内源下载？**
     以从 [PyPI 的清华镜像源](https://pypi.tuna.tsinghua.edu.cn/simple)下载为例，按照[清华镜像站](https://mirrors.tuna.tsinghua.edu.cn)上的 [PyPI 镜像使用帮助](https://mirrors.tuna.tsinghua.edu.cn/help/pypi)配置。
 1.  **我用 Python 3.x 和 3.y，遇到了 xxx 问题，如何解决？**
-    Python 的不同版本之间不保证兼容，若非必要，不建议同时使用多个版本的 Python；若必要，请检查环境变量和包的安装路径是否正确。
+    Python 的不同版本之间不保证兼容，若非必要，不建议同时使用多个版本的 Python；若必要，请检查环境变量和包的安装路径是否正确。**特别提醒：除非有十足的把握，否则别动 Linux 系统自带的 Python。**
+1.  **某些群友的群名片（如`printf("");`）如图所示的特殊显示效果是如何做到的？**
+    ![](../public/images/printf-msg.jpeg)
+    ![](../public/images/printf-brief.jpeg)
+    找到一条看似是`@printf("test");`的消息，用在线 Unicode 转换器转换，结果为`@printf("\u2067;\u2067 ("\u2067\u202d test`。这里的`\u2067`和`\u202d`是 Unicode 定义的[控制字符](https://baike.baidu.com/item/%E6%8E%A7%E5%88%B6%E5%AD%97%E7%AC%A6/0)。
