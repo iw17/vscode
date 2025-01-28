@@ -14,8 +14,6 @@
     可以从[科大镜像站](https://mirrors.ustc.edu.cn)下载，选择“获取开源软件”，“选择开源软件”处选择“TeX 排版系统”，“选择软件版本”处选择 TeX Live（若为 Windows 或 Linux 系统）或 MacTeX（若为 macOS 系统），建议在校群友用校园网下载。
 1.  **pip 默认下载源速度感人，如何设置为默认从国内源下载？**
     以从 [PyPI 的清华镜像源](https://pypi.tuna.tsinghua.edu.cn/simple)下载为例，按照[清华镜像站](https://mirrors.tuna.tsinghua.edu.cn)上的 [PyPI 镜像使用帮助](https://mirrors.tuna.tsinghua.edu.cn/help/pypi)配置。
-1.  **我用 Python 3.x 和 3.y，遇到了 xxx 问题，如何解决？**
-    Python 的不同版本之间不保证兼容，若非必要，不建议同时使用多个版本的 Python；若必要，请检查环境变量和包的安装路径是否正确。**特别提醒：除非有十足的把握，否则别动 Linux 系统自带的 Python。**
 1.  **某些群友的群名片（如`printf("");`）如图所示的特殊显示效果是如何做到的？**
     ![](../public/images/printf-msg.jpeg)
     ![](../public/images/printf-brief.jpeg)
